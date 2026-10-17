@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" font-family="Arial, Helvetica, sans-serif">
+  <!-- example of a fake (phishing) email with the warning signs marked in red -->
+  <rect x="0" y="0" width="800" height="560" fill="#f1f3f5"/>
+  <rect x="15" y="15" width="770" height="530" rx="10" fill="#ffffff" stroke="#adb5bd" stroke-width="2"/>
+  <rect x="15" y="15" width="770" height="44" rx="10" fill="#dee2e6"/>
+  <rect x="15" y="45" width="770" height="14" fill="#dee2e6"/>
+  <circle cx="42" cy="37" r="7" fill="#ff5f57"/>
+  <circle cx="64" cy="37" r="7" fill="#febc2e"/>
+  <circle cx="86" cy="37" r="7" fill="#28c840"/>
+  <text x="400" y="43" font-size="18" text-anchor="middle" fill="#495057">Inbox</text>
+
+  <!-- email header -->
+  <text x="40" y="98" font-size="18" fill="#212529"><tspan font-weight="bold">From:</tspan> Your Bank Security &lt;alerts@yourbank-secure-login.co&gt;</text>
+  <text x="40" y="140" font-size="18" fill="#212529" font-weight="bold">Subject: URGENT!!! Your account will be CLOSED in 24 hours</text>
+  <line x1="30" y1="160" x2="770" y2="160" stroke="#dee2e6" stroke-width="2"/>
+
+  <!-- email body -->
+  <text x="40" y="200" font-size="18" fill="#212529">Dear Customer,</text>
+  <text x="40" y="240" font-size="18" fill="#212529">We noticed unusual activity on your account. Your account will</text>
+  <text x="40" y="266" font-size="18" fill="#212529">be locked unless you verify your information today.</text>
+  <text x="40" y="306" font-size="18" fill="#212529">Click below and enter your password and Social Security number:</text>
+
+  <rect x="40" y="326" width="260" height="50" rx="6" fill="#0d6efd"/>
+  <text x="170" y="358" font-size="19" fill="#ffffff" font-weight="bold" text-anchor="middle">Verify My Account Now</text>
+  <rect x="40" y="384" width="370" height="32" rx="4" fill="#212529"/>
+  <text x="52" y="406" font-size="16" fill="#ffffff">http://yourbank-secure-login.co/verify</text>
+
+  <text x="40" y="460" font-size="18" fill="#212529">Failure to act will result in permanant closure of you account.</text>
+  <text x="40" y="500" font-size="18" fill="#212529">Thank you, Bank Security Departmant</text>
+
+  <!-- red boxes around the warning signs -->
+  <g fill="none" stroke="#dc3545" stroke-width="3" stroke-dasharray="8 5">
+    <rect x="30" y="74" width="660" height="34" rx="6"/>
+    <rect x="30" y="116" width="660" height="34" rx="6"/>
+    <rect x="30" y="176" width="160" height="34" rx="6"/>
+    <rect x="30" y="282" width="660" height="34" rx="6"/>
+    <rect x="32" y="378" width="386" height="44" rx="6"/>
+    <rect x="30" y="436" width="660" height="74" rx="6"/>
+  </g>
+
+  <!-- numbers that match the list on the page -->
+  <g font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <circle cx="720" cy="91" r="18" fill="#dc3545"/><text x="720" y="98">1</text>
+    <circle cx="720" cy="133" r="18" fill="#dc3545"/><text x="720" y="140">2</text>
+    <circle cx="220" cy="193" r="18" fill="#dc3545"/><text x="220" y="200">3</text>
+    <circle cx="720" cy="299" r="18" fill="#dc3545"/><text x="720" y="306">4</text>
+    <circle cx="448" cy="400" r="18" fill="#dc3545"/><text x="448" y="407">5</text>
+    <circle cx="720" cy="473" r="18" fill="#dc3545"/><text x="720" y="480">6</text>
+  </g>
+</svg>
