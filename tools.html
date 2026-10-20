@@ -4,7 +4,7 @@
 
 
 <head>
-   <title>Bootstrap Example</title>
+   <title>Stay Safe Online - Tools</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,18 +34,19 @@
 
 <div class="container-fluid p-5 bg-black bg-gradient text-white">
     <h1 class="display-4 fw-bold">Free Tools</h1>
-    <p clas="fs-3">These 3 free tools help stop phishing, malware, and ransomware. Each one has easy steps to set it up.</p>
+    <p class="fs-3">These 3 free tools help stop phishing, malware, and ransomware. Each one has easy steps to set it up.</p>
 </div>
 
 
 <div class="alert alert-info fs-4 m-4" role="alert">
+    <!--bi is base icon class-->
     <i class="bi bi-info-circle-fill me-2" aria-hidden="true"></i><b>Tip:</b> Always type the web address yourself. Never download a "security tool" from a pop up or an email link.
 </div>
 
     <div class="container">
         <table class="table table-bordered">
-            <thead class="table-black">
-                <tr>
+            <thead>
+                <tr> <!--scope col or scope row tells screen readers whether a <tr> is a colum header or a row header-->
                     <th class="fs-4" scope="col">#</th>
                     <th class="fs-4" scope="col">Tool</th>
                     <th class="fs-4" scope="col">What it stops</th>
@@ -79,7 +80,7 @@
 
 
 <!--Tool 1-->
-<div id="broswerguard" class="container p-5">
+<div id="browserguard" class="container p-5">
     <h2 class="display-6 fw-bold text-danger"><i class="bi bi-browser-chrome me-2" aria-hidden="true"></i>1. Malwarebytes Browser Guard</h2>
     <p class="fs-4"><b>Stops:</b> Phishing scams. This is a free add on for your web browser that blocks fake and scam websites before they open. It works on Chrome, Edge, Firefox, and Safari.</p>
 
@@ -150,7 +151,7 @@
         </div>
     </div>
 
-    <div class="alert alert-secondary fs-4 mt-4" role="alert">
+    <div class="alert alert-light fs-4 mt-4" role="alert">
         <i class="bi bi-cloud-arrow-up me-2" aria-hidden="true"></i>If a program you trust gets blocked, you can allow it on the same page. Also keep a backup copy of your photos on a USB drive or in the cloud (like OneDrive) just in case.
     </div>
 
@@ -161,8 +162,8 @@
 
 <footer class="container-fluid p-4 mt-auto bg-black bg-gradient text-white">
     <h4>Need help?</h4>
-    <p class="fs-5">If you think you were scammed, call your bank right away and report it at <a hred="https://reportfraud.ftc.gov" class="link-light">reportfraud.ftc.gov</a></p>
-    <ul class="list-group list-group-horizantal">
+    <p class="fs-5">If you think you were scammed, call your bank right away and report it at <a href="https://reportfraud.ftc.gov" class="link-light">reportfraud.ftc.gov</a></p>
+    <ul class="list-group list-group-horizontal">
         <li class="list-group-item">Made by Charlie Tran</li>
     </ul>
 </footer>

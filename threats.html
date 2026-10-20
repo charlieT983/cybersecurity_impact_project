@@ -4,7 +4,7 @@
 
 
 <head>
-   <title>Bootstrap Example</title>
+   <title>Stay Safe Online - Threats</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -53,13 +53,14 @@
     <h3 class="fw-bold mt-4">What is it?</h3>
     <p class="fs-4">Phishing (said like "fishing") is when a scammer pretends to be someone you trust, like your bank, Medicare, the IRS, a delivery company, or even a family member. They send you an email, text message, or phone call to trick you into giving them your passwords, bank card numbers, or money.</p>
 
-    <div class="row mt-4">
-        <div class="col-lg-7">
+    <!--Row stats a horizontal line of columns. mt-4 tells it to start a row of columns, with 24px of space above it-->
+    <div class="row mt-4"> 
+        <div class="col-lg-7"> <!--this tells bootstrap to split the row in to 7-->
             <img src="image/phishing-example.svg" class="img-fluid rounded border shadow" width="800" height="560" alt="Example of a fake email pretending to be from a bank. It has a stange email address, and urgent subject line, says Dear Customer, asks for a password and Social Security number, has a link to a strange website, and has spelling mistakes.">
             <p class="fs-5 text-white mt-2">Example of a fake bank email. The red number show the warning signs.</p>
         </div>
     
-        <div class="col-lg-5">
+        <div class="col-lg-5"> <!--this tells bootstrap to split the row in to 5-->
             <h3 class="fw-bold">How to spot it</h3>
             <ol class="list-group list-group-numbered fs-5">
                 <li class="list-group-item"><b>Strange email address.</b> The name says "Your Bank" but the email address is not your bank's real website.</li>
@@ -202,7 +203,7 @@
 <footer class="container-fluid p-4 mt-auto bg-black bg-gradient text-white">
     <h4>Need help?</h4>
     <p class="fs-5">If you think you were scammed, call your bank right away and report it at <a href="https://reportfraud.ftc.gov" class="link-light">reportfraud.ftc.gov</a></p>
-    <ul class="list-group list-group-horizantal">
+    <ul class="list-group list-group-horizontal">
         <li class="list-group-item">Made by Charlie Tran</li>
 
     </ul>
